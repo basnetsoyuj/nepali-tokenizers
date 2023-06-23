@@ -1,12 +1,11 @@
 # Nepali Tokenizers
 
-![GitHub](https://img.shields.io/github/license/basnetsoyuj/nepali-tokenizers)
+[![LICENSE](https://img.shields.io/badge/license-Apache--2.0-blue)](./LICENSE)
 
 This package provides access to pre-trained __WordPiece__ and __SentencePiece__ (Unigram) tokenizers for Nepali language, trained using HuggingFace's `tokenizers` library. It is a simple and short Python package tailored specifically for Nepali language with a default set of configurations for the normalizer, pre-tokenizer, post-processor, and decoder. 
 
 It delegates further customization by providing an interface to HuggingFace's `Tokenizer` pipeline, allowing users to adapt the tokenizers according to their requirements.
 
----
 
 ## Installation
 
@@ -16,7 +15,6 @@ You can install `nepalitokenizers` using pip:
 pip install nepalitokenizers
 ```
 
----
 
 ## Usage
 
@@ -70,7 +68,6 @@ print(tokenizer_wp.decode(tokens.ids))
 कोभिड महामारीको पिडाबाट मुक्त नहुँदै मानव समाजलाई यतिबेला युद्धको विध्वंसकारी क्षतिको चिन्ताले चिन्तित बनाएको छ ।
 ```
 
----
 
 ## Configuration & Customization
 
@@ -138,7 +135,6 @@ To learn more about further customizations that can be performed, visit [Hugging
 >        return dir(type(self)) + list(self.__dict__.keys()) + self._items
 > ```
 
----
 
 ## Training
 
@@ -179,7 +175,6 @@ for sample in tqdm(dataset):
 #### 2. A Large Scale Nepali Text Corpus by Rabindra Lamsal (2020)
 To download the dataset, follow the instructions provided in this link: [A Large Scale Nepali Text Corpus](https://dx.doi.org/10.21227/jxrd-d245).
 
----
 
 ## License
 
