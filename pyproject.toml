@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nepalitokenizers"
+version = "0.0.1"
+authors = [
+  { name="Soyuj Jung Basnet", email="bsoyuj@gmail.com" },
+]
+description = "Pre-trained Tokenizers for the Nepali language with an interface to HuggingFace's tokenizers library for customizability."
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.5"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License 2.0 (Apache-2.0)",
+    "Operating System :: OS Independent",
+]
+keywords = ["tokenizer", "nepali", "nlp", "huggingface", "tokenizers", "nepali-tokenizers", "wordpiece", "sentencepiece"]
+dependencies = [
+    "tokenizers >= 0.13.3",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/basnetsoyuj/nepali-tokenizers"
+"Bug Tracker" = "https://github.com/basnetsoyuj/nepali-tokenizers/issues"
