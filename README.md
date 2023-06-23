@@ -1,6 +1,6 @@
 # Nepali Tokenizers
 
-[![LICENSE](https://img.shields.io/badge/license-Apache--2.0-blue)](./LICENSE)
+[![LICENSE](https://img.shields.io/badge/license-Apache--2.0-blue)](./LICENSE) [![Build and Release](https://github.com/basnetsoyuj/nepali-tokenizers/actions/workflows/build.yml/badge.svg)](https://github.com/basnetsoyuj/nepali-tokenizers/actions/workflows/build.yml)
 
 This package provides access to pre-trained __WordPiece__ and __SentencePiece__ (Unigram) tokenizers for Nepali language, trained using HuggingFace's `tokenizers` library. It is a simple and short Python package tailored specifically for Nepali language with a default set of configurations for the normalizer, pre-tokenizer, post-processor, and decoder. 
 

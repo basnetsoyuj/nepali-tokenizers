@@ -10,14 +10,14 @@ authors = [
 ]
 description = "Pre-trained Tokenizers for the Nepali language with an interface to HuggingFace's tokenizers library for customizability."
 readme = "README.md"
-license = {file = "LICENSE"}
+license = {text = "Apache-2.0"}
 requires-python = ">=3.5"
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: Apache Software License 2.0 (Apache-2.0)",
+    "License :: OSI Approved :: Apache Software License",
     "Operating System :: OS Independent",
 ]
-keywords = ["tokenizer", "nepali", "nlp", "huggingface", "tokenizers", "nepali-tokenizers", "wordpiece", "sentencepiece"]
+keywords = ["nepali", "tokenizer", "NLP", "wordpiece", "sentencepiece", "huggingface", "transformers"]
 dependencies = [
     "tokenizers >= 0.13.3",
 ]
