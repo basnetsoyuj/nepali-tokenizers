@@ -2,9 +2,15 @@
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"nepalitokenizers.models" = ["*.json"]
+
 [project]
 name = "nepalitokenizers"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
   { name="Soyuj Jung Basnet", email="bsoyuj@gmail.com" },
 ]
